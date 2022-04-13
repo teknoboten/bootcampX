@@ -1,17 +1,3 @@
--- CREATE TABLE students (
---   id SERIAL PRIMARY KEY NOT NULL, 
---   name VARCHAR(255) NOT NULL, 
---   age INTEGER, 
---   email VARCHAR(50), 
---   phone VARCHAR(32), 
---   github VARCHAR(255), 
---   start_date DATE, 
---   end_date DATE, 
---   cohort_id INTEGER REFERENCES cohorts(id) ON DELETE CASCADE
--- );
-
-
-
 -- CREATE TABLE teachers (
 --   id SERIAL PRIMARY KEY NOT NULL,
 --   name VARCHAR(255) NOT NULL,
@@ -31,3 +17,18 @@ CREATE TABLE assistance_requests (
   student_feedback TEXT,
   teacher_feedback TEXT
 );
+
+
+
+-- CREATE TABLE students (
+--   id SERIAL PRIMARY KEY NOT NULL, 
+--   name VARCHAR(255) NOT NULL, 
+--   age INTEGER, 
+--   email VARCHAR(50), 
+--   phone VARCHAR(32), 
+--   github VARCHAR(255), 
+--   start_date DATE, 
+--   end_date DATE, 
+--   cohort_id INTEGER REFERENCES cohorts(id) ON DELETE CASCADE
+-- );
+
